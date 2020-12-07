@@ -15,6 +15,7 @@ function enviarForm() {
             }
         }
         req.send(JSON.stringify(pessoa))
+        alert("Cadastrado")
     }
     window.location.reload();
 }
