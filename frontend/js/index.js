@@ -24,7 +24,7 @@ function verificarForm() {
     var email = document.forms["cadastro"]["email"].value
     var longi = document.forms["cadastro"]["longi"].value
     var lati = document.forms["cadastro"]["lati"].value
-    
+
     if (nome == "" || email == "" || longi == "" || lati == "") {
         alert("preencha todos os campos");
         return false
